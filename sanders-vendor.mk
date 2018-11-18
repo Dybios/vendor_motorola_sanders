@@ -244,6 +244,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/motorola/sanders/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/sanders/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
