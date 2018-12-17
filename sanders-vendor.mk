@@ -1304,10 +1304,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/motorola/sanders/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/motorola/sanders/proprietary/vendor/lib/motcamera.device@1.0-impl.so:system/vendor/lib/motcamera.device@1.0-impl.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/motorola.hardware.camera.device@1.0.so:system/vendor/lib/motorola.hardware.camera.device@1.0.so \
+    vendor/motorola/sanders/proprietary/lib/motorola.hardware.camera.device@1.0.so:system/lib/motorola.hardware.camera.device@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so:system/vendor/lib/motorola.hardware.camera.device@1.0_vendor.so \
     vendor/motorola/sanders/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:system/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4.so:system/vendor/lib/motorola.hardware.camera.provider@2.4.so \
+    vendor/motorola/sanders/proprietary/lib/motorola.hardware.camera.provider@2.4.so:system/lib/motorola.hardware.camera.provider@2.4.so \
     vendor/motorola/sanders/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:system/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so \
     vendor/motorola/sanders/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/sanders/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:system/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
