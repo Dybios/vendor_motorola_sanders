@@ -71,6 +71,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/motorola/sanders/proprietary/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/motorola/sanders/proprietary/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
+    vendor/motorola/sanders/proprietary/etc/firmware/a506_zap.b00:system/etc/firmware/a506_zap.b00 \
+    vendor/motorola/sanders/proprietary/etc/firmware/a506_zap.b01:system/etc/firmware/a506_zap.b01 \
+    vendor/motorola/sanders/proprietary/etc/firmware/a506_zap.b02:system/etc/firmware/a506_zap.b02 \
+    vendor/motorola/sanders/proprietary/etc/firmware/a506_zap.elf:system/etc/firmware/a506_zap.elf \
+    vendor/motorola/sanders/proprietary/etc/firmware/a506_zap.mdt:system/etc/firmware/a506_zap.mdt \
     vendor/motorola/sanders/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
     vendor/motorola/sanders/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/motorola/sanders/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
@@ -706,6 +711,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libdrplugin_client.so:system/vendor/lib/libdrplugin_client.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libdsd2pcm.so:system/vendor/lib/libdsd2pcm.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libevent_observer.so:system/vendor/lib/libevent_observer.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -737,6 +743,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmodalityservice_jni.so:system/vendor/lib/libmodalityservice_jni.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libmulawdec.so:system/vendor/lib/libmulawdec.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
@@ -790,7 +797,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/motorola/sanders/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/motorola/sanders/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
-    vendor/motorola/sanders/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0.so:system/vendor/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:system/vendor/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:system/vendor/lib/vendor.qti.hardware.iop@2.0.so \
@@ -1045,11 +1051,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib64/vendor.display.color@1.1.so:system/lib64/vendor.display.color@1.1.so \
     vendor/motorola/sanders/proprietary/lib64/vendor.display.color@1.2.so:system/lib64/vendor.display.color@1.2.so \
     vendor/motorola/sanders/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
-    vendor/motorola/sanders/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
-    vendor/motorola/sanders/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/motorola/sanders/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
-    vendor/motorola/sanders/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/motorola/sanders/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -1109,6 +1112,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/libmulawdec.so:system/vendor/lib64/libmulawdec.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
