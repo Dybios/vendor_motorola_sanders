@@ -1700,8 +1700,6 @@ PRODUCT_PACKAGES += \
     libbtconfigstore \
     TimeService \
     TimeWeather \
-    DTVPlayer \
-    DTVService \
     atfwd \
     HotwordEnrollmentOKGoogleCS47L35 \
     HotwordEnrollmentTGoogleCS47L35 \
